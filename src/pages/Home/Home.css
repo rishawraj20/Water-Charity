@@ -1,0 +1,292 @@
+/* home-container */
+.home-container{
+    width: 100vw;
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/* home-container .video */
+.home-container .video-container{
+    height: 40rem;
+}
+.home-container .video-container video{
+    width: 100vw;
+    min-width: max-content;
+    height: 40rem;
+    object-fit: cover;
+}
+
+/* .home-container .main-container */
+.home-container .main-container{
+    width: 100vw;
+    min-width: max-content;
+    height: 40rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+.home-container .main-container .containerItems{
+	font-family: 'Times New Roman', Times, serif;
+    width: 70rem;
+    color: white;
+    text-shadow: 0 0 8px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-container .main-container .containerItems .left-side{
+    width: 550px;
+    text-align: center;
+}
+.home-container .main-container .containerItems .left-side h1{
+    font-size: 45px;
+}
+.home-container .main-container .containerItems .left-side p{
+    font-size: 20px;
+}
+.home-container .main-container .containerItems .right-side{
+    text-shadow: none;
+}
+
+/* .home-container .main-heading */
+.home-container .main-heading{
+    background-color: #eaf5ff;
+    width: 100vw;
+    min-width: max-content;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 0;
+}
+
+/* .home-container .main-heading .heading */
+.home-container .main-heading .heading{
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.home-container .main-heading .heading .our-work{
+    font-size: x-large;
+    font-weight: bold;
+    color: blue;
+}
+
+.main-heading .main-heading1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.main-heading .heading .main-heading1 h1{
+	width: 900px;
+    font-family: calibri;
+}
+.main-heading .heading .main-heading1 p{
+    font-size: larger;
+    width: 700px;
+}
+
+.main-heading .heading .row{
+    width: 70rem;
+    text-align: center;
+}
+.main-heading .heading .row .column{
+    width: 33.33%;
+    color: black;
+}
+.main-heading .heading .row .column h3{
+    font-size: 40px;
+    font-weight:bold;
+}
+.main-heading .heading .row .column p{
+    font-size: 20px;
+}
+
+/* .home-container .main-heading .home-heading */
+.home-container .main-heading .home-heading{
+    width: 70rem;
+    background: rgb(212, 212, 228);
+    height: 36rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.home-container .main-heading .home-heading .heading-main{
+    text-align: center;
+    color: black;
+}
+
+.home-container .main-heading .home-heading .heading-main h3{
+    margin-left: 10%;
+    font-size: 30px;
+	width: 900px;
+    color: blue;
+}
+.home-container .main-heading .home-heading .heading-main p{
+    margin-left: 25%;
+    font-size: 20px;
+    width: 600px;
+    
+}
+.home-container .main-heading .home-heading .image{
+    float:right;
+    margin-right: 9%;
+}
+.home-container .main-heading .home-heading .image img{
+    border-radius: 10px;
+}
+.home-container .main-heading .home-heading .flex{
+    
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+.home-container .main-heading .home-heading .flex .heading-Spring{
+    box-sizing: border-box;
+    background-color: rgba(188, 192, 245, 0.582);
+    height: 28rem;
+    width: 25rem;
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.home-container .main-heading .home-heading .flex .heading-Spring .image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-container .main-heading .home-heading .flex .heading-Spring .font-sans{
+    text-align: center;
+    font-size: 30px;
+}
+.home-container .main-heading .home-heading .flex .heading-Spring .paragraph{
+    font-size: 16px;
+    text-align: center;
+}
+.home-container .main-heading .home-heading .flex .heading-Spring .font-bold{
+    font-weight: 700;
+    text-align: center;
+}
+.home-container .main-heading .home-heading .flex .heading-Spring .button-spring {
+    height: 48px;
+    line-height: 48px;
+    background-color: #08ee7b;
+    color: #fff;
+    text-align: center;
+}
+.home-container .main-heading .home-heading .flex .heading-Spring .button{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-radius: 4px;
+    border: 0;
+    font-size: 15px;
+    padding: 0 20px;
+    font-weight: 500;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    width: 70%;
+    margin-left: 55px;
+    
+}
+.home-container .main-heading .home-heading .flex .heading-Spring .text{
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+/* .home-container .main-heading .group-heading */
+.home-container .main-heading .group-heading{
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.home-container .main-heading .group-heading .home-heading1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: white;
+    border-radius: 15px;
+}
+.home-container .main-heading .group-heading img{
+    border-radius: 15px 0 0 15px;
+}
+
+.home-container .main-heading .group-heading .home-heading1 .fund-column{
+    width: 300px; 
+}
+.home-container .main-heading .group-heading .home-heading1 .fund-column h4{
+    font-weight: bold;
+}
+.home-container .main-heading .group-heading .home-heading1 .fund-column .fund-btn1{
+    font-weight: bold;
+}
+
+.home-container .main-heading .group-heading .home-heading2 .fund-column1 h4{
+    font-weight: bold;
+}
+.home-container .main-heading .group-heading .home-heading2 .fund-column1{
+    float: right;
+    margin-right: 3%;
+    width: 300px; 
+}
+
+/* .home-container .update-heading ( stories) */
+.home-container .update-heading {
+    width: 100vw;
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+    text-align: center;
+}
+.home-container .update-heading .font-heading{
+    width: 300px;
+    line-height: 40px;
+}
+.home-container .update-heading .stories{
+    width: 70rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+.home-container .update-heading .home-heading2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.home-container .update-heading .home-heading2 img{
+    border-radius: 10px;
+}
+.home-container .update-heading .home-heading2 a{
+    font-weight: bold;
+}
